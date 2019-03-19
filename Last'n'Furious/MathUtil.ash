@@ -2,11 +2,13 @@
 // TINY_FLOAT constant, to detect floating point values close to zero
 #define TINY_FLOAT 0.00000001
 
+#ifndef SCRIPT_API_v3507
 managed struct Point
 {
   int x;
   int y;
 };
+#endif
 
 import Point *ParsePoint(String s);
 

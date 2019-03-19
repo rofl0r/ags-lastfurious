@@ -1,14 +1,14 @@
 ///////////////////////////////////////////////////////////////////////////////
 //
-// Camera module.
+// Custom camera module.
 //
 // Module handles the camera control.
 //
 ///////////////////////////////////////////////////////////////////////////////
 
-/// Camera static struct manages game camera, which may be targetted
+/// CameraEx static struct manages game camera, which may be targetted
 /// at certain game object, or set to any arbitrary coordinates.
-struct Camera
+struct CameraEx
 {
   //
   // Behavior setup
