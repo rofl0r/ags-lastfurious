@@ -1,0 +1,18 @@
+# Output and cache
+_Debug/
+Compiled/
+AudioCache/
+warnings.log
+
+# Backup files
+*.bak
+backup_acsprset.spr
+
+# Local user configuration
+*.user
+
+# Temporary files
+_OpenInEditor.lock
+~aclzw.tmp
+game28.dta
+*.exe
