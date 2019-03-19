@@ -4,6 +4,10 @@ Compiled/
 AudioCache/
 warnings.log
 
+# Debug engine output
+allegro.log
+test.ini
+
 # Backup files
 *.bak
 backup_acsprset.spr
