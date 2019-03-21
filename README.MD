@@ -13,7 +13,8 @@ Made for the 2017 November MAGS competition. It has won the competition itself a
 
 - Ivan Mogilko: Code
 - Jim Reed: Graphics
-- Uses music by Eric Matyas (www.soundimage.org) and Kevin MacLeod (https://incompetech.com/).
+- IniFile module by Ferry "Wyz" Timmers (https://www.adventuregamestudio.co.uk/forums/index.php?topic=46631.0)
+- Music by Eric Matyas (www.soundimage.org) and Kevin MacLeod (https://incompetech.com/)
 
 
 ![In-game screenshot](https://i.imgur.com/NhM9RUk.png)
