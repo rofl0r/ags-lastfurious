@@ -163,6 +163,18 @@ The checkpoints are forming a double-linked looped list, meaning that each node 
 
 
 
+### 5. Editing AI.
+
+Game supports two AI modes which are tied to the two respective physics modes. The reason is that when we were about to start adding AI we realized that have no idea how to make a good one in a small amount of time we had. So we experimented.
+
+The easiest was to draw a mask of regions and assign every region a direction of movement. The AI-controlled car would check which kind of region it is on right now and choose direction accordingly. That was simple, but unfortunately did not work with high speeds and drift well.
+
+Another method we tried was node-based. Target nodes would be set on track, telling AI recommended driving parameters as they entered their range. This method allowed to achieve higher racing speeds but was innacurate and much depended on luck.
+
+On one hand we wanted fast pacing and cool drift, on another hand wished AI to be able to at least complete a loop. Being in doubts, eventually we decided to keep both methods and add an option to switch between them.
+
+
+
 ### 5.1. Editing AI. Safe physics mode.
 
 In safe mode the game uses region-based AI system. It reads AI mask from Data/airegions.bmp and legend from Data/airegions.ini. Mask can have up to 16 different regions, where each region has an assigned direction. When AI-controlled car moves over the region, it turns to the direction associated with the region.
